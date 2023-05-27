@@ -1,0 +1,74 @@
+.navbar {
+  padding: 24px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.left {
+  width: 492px;
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+.left .logo {
+  width: 158px;
+}
+.courses {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+  width: 97px;
+  height: 24px;
+  cursor: pointer;
+}
+.icon {
+  width: 24px;
+}
+.left .courses p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 64px;
+  width: 364px;
+  height: 40px;
+}
+.right .login p {
+  width: 46px;
+  height: 19px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  cursor: pointer;
+}
+.join-now {
+  border: none;
+  padding: 10px 42px;
+  width: 166px;
+  height: 40px;
+  background: linear-gradient(266.79deg, #0048ff 4.63%, #0096ff 100%);
+  border-radius: 52px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+  cursor: pointer;
+}
+.fa-search {
+  cursor: pointer;
+}
