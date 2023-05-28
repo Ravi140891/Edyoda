@@ -4,12 +4,8 @@
   align-items: flex-start;
   padding: 0px;
   gap: 48px;
-  position: absolute;
   width: 799px;
   height: 708px;
-  left: 144px;
-  top: 72px;
-  padding-top: 70px;
 }
 .header {
   display: flex;
@@ -51,6 +47,7 @@
 .pointer .icon {
   width: 68px;
   height: 68px;
+  padding: 10px;
 }
 .pointer .icon img {
   width: 100%;
@@ -62,8 +59,6 @@
   align-items: center;
   padding: 0px;
   gap: 8px;
-  width: 420px;
-  height: 32px;
 }
 .text-container p {
   font-family: "Raleway";
@@ -80,4 +75,8 @@
   font-size: 32px;
   margin-right: 10px;
   font-family: "Roboto";
+}
+.text-container .sponshor {
+  margin-right: 0;
+  margin-left: 10px;
 }

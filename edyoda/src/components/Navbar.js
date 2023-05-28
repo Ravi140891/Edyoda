@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="left">
         <div className="logo">
-          <img src="./EDYODA.png" alt="Edyoda logo" />
+          <img src="./assets/EDYODA.png" alt="Edyoda logo" />
         </div>
         <div className="courses">
           <p>Courses</p>

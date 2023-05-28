@@ -1,0 +1,64 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 24px;
+  gap: 28px;
+  width: 549px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.progress-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 160px;
+  width: 501px;
+  height: 61px;
+}
+.stage1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  width: 80px;
+  height: 61px;
+}
+.stage1 .icon {
+  width: 38px;
+}
+.stage1 .stage-text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #3c4852;
+}
+.form-header p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 125.3%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3c4852;
+}
+.razorpay {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  width: 501px;
+  height: 42.69px;
+}

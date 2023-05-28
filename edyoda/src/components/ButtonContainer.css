@@ -1,0 +1,60 @@
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 501px;
+  height: 56px;
+}
+.secondary-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 42px;
+  gap: 10px;
+  width: 242.5px;
+  height: 56px;
+  border: 2px solid #f77171;
+  border-radius: 4px;
+}
+.cancel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f77171;
+  cursor: pointer;
+}
+.primary-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 42px;
+  gap: 10px;
+  width: 242.5px;
+  height: 56px;
+  background: #47ba68;
+  border-radius: 4px;
+}
+.proceed {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
